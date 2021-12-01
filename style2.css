@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* img {
+    width: 100%;
+} */
+
+#container {
+    width: 1800px;
+    height: 800px;
+    background-color: khaki;
+    border: 2px solid blue;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#container:hover {
+    cursor: pointer;
+}
+
+#layerOne {
+    background-image: url("img/sky.png");
+    width: 2000px;
+    height: 800px;
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 0px -300px;
+    z-index: 5;
+}
+
+#layerTwo {
+    background-image: url("img/person.png");
+    width: 2000px;
+    position: absolute;
+    height: 800px;
+    background-position: 450px 300px;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+#layerThree {
+    background-image: url("img/mountain3.png");
+    width: 2000px;
+    height: 800px;
+    position: absolute;
+    background-size: 100%;
+    background-position: 400px 250px;
+    background-repeat: no-repeat;
+    z-index: 8;
+}
+
+#layerFour {
+    background-image: url("img/mountain2.png");
+    width: 2000px;
+    height: 800px;
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -150px 250px;
+    z-index: 9;
+}
+
+#layerFive {
+    background-image: url("img/mountain1.png");
+    width: 2000px;
+    height: 800px;
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 450px;
+    z-index: 9;
+}
+
+#layerSix {
+    background-image: url("img/image.jpg");
+    width: 2000px;
+    height: 800px;
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+    z-index: 6;
+}

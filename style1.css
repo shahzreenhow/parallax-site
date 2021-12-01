@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 2800px;
+    height: 455px;
+    background-color: khaki;
+    border: 2px solid blue;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#container:hover {
+    cursor: pointer;
+}
+
+#layerOne {
+    background-image: url("images/layer_6.png");
+    width: 3000px;
+    height: 455px;
+    position: absolute;
+    z-index: 10;
+}
+
+#layerTwo {
+    background-image: url("images/layer_5.png");
+    width: 3000px;
+    height: 455px;
+    position: absolute;
+    z-index: 9;
+}
+#layerThree {
+    background-image: url("images/layer_4.png");
+    width: 3000px;
+    height: 455px;
+    position: absolute;
+    z-index: 8;
+}
+
+#layerFour {
+    background-image: url("images/layer_3.png");
+    width: 3000px;
+    height: 455px;
+    position: absolute;
+    z-index: 7;
+}
+
+#layerFive {
+    background-image: url("images/layer_2.png");
+    width: 3000px;
+    height: 455px;
+    position: absolute;
+    z-index: 6;
+}
+
+#layerSix {
+    background-image: url("images/layer_1.png");
+    width: 3000px;
+    height: 455px;
+    position: absolute;
+    z-index: 5;
+}
+
+#layerSeven {
+    background-image: url("images/layer_0.png");
+    width: 3000px;
+    height: 455px;
+    position: absolute;
+    z-index: 4;
+}
+
